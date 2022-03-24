@@ -1106,7 +1106,7 @@ public class Arena extends BukkitRunnable {
 
 
   public boolean lastAliveMurderer() {
-    return aliveMurderer() == 1;
+    return aliveMurderer() <= 1;
   }
 
   public int aliveMurderer() {
